@@ -1,0 +1,20 @@
+CHACRA SLC — aplicación de presupuestos
+
+Incluye:
+- index.html: aplicación completa.
+- logo.png: logo de CHACRA SLC incluido en el paquete para que no dependa de una imagen externa.
+- ambient-techno.mp3: pista ambiental electrónica suave original, creada para esta app.
+- manifest.webmanifest: configuración de instalación.
+- sw.js: caché para funcionamiento sin conexión una vez cargada.
+- icon.svg: icono auxiliar.
+
+Sonido y música:
+- Los beep de los botones siguen activos y se pueden configurar desde el engranaje.
+- La música original suena de fondo a volumen bajo y en bucle.
+- En Configuración se puede ajustar el volumen, silenciar la música o elegir un archivo de audio del celular. La pista elegida se guarda en el dispositivo.
+- Por las restricciones de reproducción automática de Android, la música comienza después del primer toque.
+
+Importante:
+1. Los importes precargados son ejemplos ilustrativos, no precios de mercado. Se pueden modificar desde Precios.
+2. Los presupuestos y las preferencias se guardan en el almacenamiento local de este dispositivo. No se sincronizan automáticamente entre dispositivos.
+3. El ZIP contiene todos los archivos necesarios de la aplicación web. Para instalarla como PWA en Android, hay que publicarla en un hosting HTTPS y abrirla con Chrome para usar “Instalar aplicación / Añadir a pantalla principal”. Para generar un APK instalable, el siguiente paso es empaquetarla como aplicación Android.
